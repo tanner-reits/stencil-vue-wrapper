@@ -23,5 +23,8 @@
   },
   "dependencies": {
     "stencil-library": "*"
+  },
+  "devDependencies": {
+    "vue": "^3.3.4"
   }
 }
