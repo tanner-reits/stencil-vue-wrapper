@@ -8,15 +8,14 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "files": [
     "dist"
   ],
   "scripts": {
     "build": "npm run tsc",
-    "tsc": "tsc -p ."
+    "tsc": "tsc -p . --outDir ./dist"
   },
   "publishConfig": {
     "access": "public"
